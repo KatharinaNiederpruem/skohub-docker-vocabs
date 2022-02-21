@@ -1,11 +1,11 @@
 {
-  "id": "https://example.org/insekten/Gleichflügler",
+  "id": "https://example.org/insekten/Blattlaeuse",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FGleichfl%C3%BCgler",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FGleichfl%C3%BCgler",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FBlattlaeuse",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FBlattlaeuse",
   "prefLabel": {
-    "de": "Gleichflügler",
-    "lat": "Homoptera"
+    "de": "Blattläuse",
+    "lat": "Aphidoidea"
   },
   "inScheme": {
     "id": "https://example.org/insekten/",
