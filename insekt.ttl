@@ -13,6 +13,57 @@ insekt: a skos:ConceptScheme ;
   
 insekt:Borstenschwaenze a skos:Concept ;
   skos:prefLabel "Borstenschwänze"@de, "Thysanura"@lat ;
-  skos:altLabel "Norfolk Pippin"@de, "Norfolk Russet"@de, "Hanging Pearmain"@de, "Adam's Parmane"@en, "Hanging Pearmain"@en, "Norfolk Pippin"@en ;
-  skos:hiddenLabel "Matchless"@de ;
+  skos:topConceptOf insekt: .
+
+insekt:Springschrecken a skos:Concept ;
+  skos:prefLabel "Springschrecken"@de, "Saltatoria"@lat ;
+  skos:topConceptOf insekt: .
+
+insekt:Schnabelkerfe a skos:Concept ;
+  skos:prefLabel "Schnabelkerfe"@de, "Hemiptera"@lat ;
+  skos:topConceptOf insekt: .
+
+insekt:Wanzen a skos:Concept ;
+  skos:prefLabel "Wanzen"@de, "Heteroptera"@lat ;
+  skos:topConceptOf insekt: .
+
+insekt:Gleichflügler a skos:Concept ;
+  skos:prefLabel "Gleichflügler"@de, "Homoptera"@lat ;
+  skos:topConceptOf insekt: .
+
+insekt:Zikaden a skos:Concept ;
+  skos:prefLabel "Zikaden"@de, "Auchenorrhyncha"@lat ;
+  skos:topConceptOf insekt: .
+
+insekt:Blattläuse a skos:Concept ;
+  skos:prefLabel "Blattläuse"@de, "Aphidoidea"@lat ;
+  skos:topConceptOf insekt: .
+
+insekt:Reblaus a skos:Concept ;
+  skos:prefLabel "Reblaus"@de, "Viteus vitifolii"@lat ;
+  skos:topConceptOf insekt: .
+
+insekt:Gruene-Fichtengallenlaus a skos:Concept ;
+  skos:prefLabel "Grüne Fichtengallenlaus"@de, "Adelges viridis"@lat ;
+  skos:topConceptOf insekt: .
+
+insekt:Schmetterling a skos:Concept ;
+  skos:prefLabel "Schmetterlinge"@de, "Lepidoptera"@lat ;
+  skos:topConceptOf insekt: .
+
+insekt:Schwalbenschwanz a skos:Concept ;
+  skos:prefLabel "Schwalbenschwanz"@de, "Papilinodae"@lat ;
+  skos:altLabel "Apollofalter"@de ;
+  skos:topConceptOf insekt: .
+
+insekt:Weissling a skos:Concept ;
+  skos:prefLabel "Weisslinge"@de, "Pieridae"@lat ;
+  skos:topConceptOf insekt: .
+
+insekt:Kleiner-Kohlweissling a skos:Concept ;
+  skos:prefLabel "Kleiner Kohlweißling"@de, "Pieris rapae"@lat ;
+  skos:topConceptOf insekt: .
+
+insekt:Rapsweissling a skos:Concept ;
+  skos:prefLabel "Rapsweißling"@de, "Pieris napi"@lat ;
   skos:topConceptOf insekt: .
