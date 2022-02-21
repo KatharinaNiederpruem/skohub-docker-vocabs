@@ -27,7 +27,7 @@ insekt:Wanzen a skos:Concept ;
   skos:prefLabel "Wanzen"@de, "Heteroptera"@lat ;
   skos:topConceptOf insekt: .
 
-insekt:Gleichflügler a skos:Concept ;
+insekt:Gleichfluegler a skos:Concept ;
   skos:prefLabel "Gleichflügler"@de, "Homoptera"@lat ;
   skos:topConceptOf insekt: .
 
@@ -35,7 +35,7 @@ insekt:Zikaden a skos:Concept ;
   skos:prefLabel "Zikaden"@de, "Auchenorrhyncha"@lat ;
   skos:topConceptOf insekt: .
 
-insekt:Blattläuse a skos:Concept ;
+insekt:Blattlaeuse a skos:Concept ;
   skos:prefLabel "Blattläuse"@de, "Aphidoidea"@lat ;
   skos:topConceptOf insekt: .
 
