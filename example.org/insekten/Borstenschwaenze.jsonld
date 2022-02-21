@@ -7,18 +7,6 @@
     "de": "Borstenschwänze",
     "lat": "Thysanura"
   },
-  "altLabel": {
-    "en": [
-      "Adam's Parmane",
-      "Hanging Pearmain",
-      "Norfolk Pippin"
-    ],
-    "de": [
-      "Norfolk Pippin",
-      "Norfolk Russet",
-      "Hanging Pearmain"
-    ]
-  },
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {
