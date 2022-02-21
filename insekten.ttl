@@ -1,1 +1,18 @@
+@prefix insekt: <https://example.org/insekten/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
+insekt: a skos:ConceptScheme ;
+  dct:title "Insekten"@de, "Insects"@en, "Insecta"@lat ;
+  dct:creator "Katharina Niederprüm"@de ;
+  dct:created "2022-02-21" ;
+  dct:license <https://creativecommons.org/publicdomain/zero/4.0/> ;
+  dct:description "Insekten Europas"@de, "Insects in Europe"@en ;
+  skos:hasTopConcept insekt:Borstenschwaenze .
+  
+insekt:Borstenschwaenze a skos:Concept ;
+  skos:prefLabel "Borstenschwänze"@de, "Thysanura"@lat ;
+  skos:altLabel "Norfolk Pippin"@de, "Norfolk Russet"@de, "Hanging Pearmain"@de, "Adam's Parmane"@en, "Hanging Pearmain"@en, "Norfolk Pippin"@en ;
+  skos:hiddenLabel "Matchless"@de ;
+  skos:topConceptOf insekt: .
