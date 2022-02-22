@@ -40,7 +40,7 @@ insekt:Schnabelkerfe a skos:Concept ;
     skos:inScheme insekt: .
 
   insekt:Gleichfluegler a skos:Concept ;
-    skos:prefLabel "Gleichflügler"@de, "Homoptera"@eng ;
+    skos:prefLabel "Gleichflügler"@de, "Homoptera"@en ;
     skos:altLabel "Homoptera"@de ;
     skos:definition "Schnabelkerfen, bei denen die Vorderflügel, sofern überhaupt ausgebildet, einheitlich ledrig oder häutig sind."@de, "Homoptera is a suborder of order Hemiptera."@en ;
     skos:broader insekt:Schnabelkerfe ;
