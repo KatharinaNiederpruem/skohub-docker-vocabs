@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FGleichfluegler",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FGleichfluegler",
   "prefLabel": {
-    "de": "Gleichflügler",
-    "eng": "Homoptera"
+    "en": "Homoptera",
+    "de": "Gleichflügler"
   },
   "altLabel": {
     "de": [

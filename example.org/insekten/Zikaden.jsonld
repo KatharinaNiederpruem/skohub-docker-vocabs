@@ -19,8 +19,8 @@
   "broader": {
     "id": "https://example.org/insekten/Gleichfluegler",
     "prefLabel": {
-      "de": "Gleichflügler",
-      "eng": "Homoptera"
+      "en": "Homoptera",
+      "de": "Gleichflügler"
     }
   },
   "inScheme": {
