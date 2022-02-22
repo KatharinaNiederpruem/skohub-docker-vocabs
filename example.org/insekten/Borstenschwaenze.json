@@ -7,6 +7,9 @@
     "de": "Borstenschwänze",
     "lat": "Thysanura"
   },
+  "note": {
+    "de": "Primitive, flügellose Art aus der Gruppe der Flügellosen ohne eigentliche Metamorphose."
+  },
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {

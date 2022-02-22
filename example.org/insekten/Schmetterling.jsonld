@@ -7,6 +7,9 @@
     "de": "Schmetterlinge",
     "lat": "Lepidoptera"
   },
+  "note": {
+    "de": "Eine sehr große Ordnung mit etwa 150000 bekannten Arten. Etwa 5000 Arten kommen in Europa vor, die Hälfte davon auch auf den Britischen Inseln."
+  },
   "narrower": [
     {
       "id": "https://example.org/insekten/Schwalbenschwanz",

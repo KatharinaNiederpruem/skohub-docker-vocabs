@@ -7,6 +7,9 @@
     "de": "Weisslinge",
     "lat": "Pieridae"
   },
+  "note": {
+    "de": "Eine große Familie, meist weiß oder gelb, häufig schwarz gezeichnet. Geschlechter oft unterschiedlich gefärbt."
+  },
   "narrower": [
     {
       "id": "https://example.org/insekten/Kleiner-Kohlweissling",

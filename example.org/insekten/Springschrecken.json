@@ -7,6 +7,9 @@
     "de": "Springschrecken",
     "lat": "Saltatoria"
   },
+  "note": {
+    "de": "In dieser Ordnung sind etwa 17000 Arten bekannt, von denen mehr als die Hälfte Heuschrecken sind."
+  },
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {

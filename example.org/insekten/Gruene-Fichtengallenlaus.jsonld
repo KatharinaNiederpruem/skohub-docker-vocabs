@@ -7,6 +7,9 @@
     "de": "Grüne Fichtengallenlaus",
     "lat": "Adelges viridis"
   },
+  "note": {
+    "de": "Erzeugt zapfenartige Gallen an Fichtentrieben"
+  },
   "broader": {
     "id": "https://example.org/insekten/Blattlaeuse",
     "prefLabel": {

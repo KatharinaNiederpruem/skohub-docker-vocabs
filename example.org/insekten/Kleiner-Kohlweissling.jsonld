@@ -7,6 +7,9 @@
     "de": "Kleiner Kohlweißling",
     "lat": "Pieris rapae"
   },
+  "note": {
+    "de": "Überall auf Kohlarten, wilden Kreuzblütlern, häufig recht schädlich"
+  },
   "broader": {
     "id": "https://example.org/insekten/Weissling",
     "prefLabel": {

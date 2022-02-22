@@ -7,6 +7,9 @@
     "de": "Gleichflügler",
     "lat": "Homoptera"
   },
+  "definition": {
+    "de": "Schnabelkerfen, bei denen die Vorderflügel, sofern überhaupt ausgebildet, einheitlich ledrig oder häutig sind."
+  },
   "narrower": [
     {
       "id": "https://example.org/insekten/Zikaden",

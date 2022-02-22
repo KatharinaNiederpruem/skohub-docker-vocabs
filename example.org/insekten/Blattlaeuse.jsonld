@@ -7,6 +7,9 @@
     "de": "Blattläuse",
     "lat": "Aphidoidea"
   },
+  "definition": {
+    "de": "sehr kleine, tropfenförmige, Pflanzensäfte saugende Schnabelkerfe"
+  },
   "narrower": [
     {
       "id": "https://example.org/insekten/Reblaus",

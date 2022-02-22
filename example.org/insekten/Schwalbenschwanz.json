@@ -15,6 +15,9 @@
       "Papilinodae"
     ]
   },
+  "note": {
+    "de": "Meist große, schön gefärbte Schmetterlinge"
+  },
   "broader": {
     "id": "https://example.org/insekten/Schmetterling",
     "prefLabel": {
