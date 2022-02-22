@@ -4,13 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FSchnabelkerfe",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FSchnabelkerfe",
   "prefLabel": {
+    "en": "Hemiptera",
     "de": "Schnabelkerfe",
     "lat": "Hemiptera"
+  },
+  "altLabel": {
+    "en": [
+      "true bugs"
+    ],
+    "de": [
+      "Rhynchota"
+    ],
+    "lat": [
+      "Rhynchota"
+    ]
+  },
+  "definition": {
+    "en": "Hemiptera is the largest order of hemimetabolous insects.",
+    "de": "Die Schnabelkerfe (Hemiptera, Rhynchota) sind eine Insekten-Ordnung innerhalb der Neuflügler (Neoptera)."
   },
   "narrower": [
     {
       "id": "https://example.org/insekten/Wanzen",
       "prefLabel": {
+        "en": "Heteroptera",
         "de": "Wanzen",
         "lat": "Heteroptera"
       }

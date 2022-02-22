@@ -4,10 +4,17 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FSpringschrecken",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FSpringschrecken",
   "prefLabel": {
+    "en": "Orthoptera",
     "de": "Springschrecken",
     "lat": "Saltatoria"
   },
+  "altLabel": {
+    "de": [
+      "Heuschrecken"
+    ]
+  },
   "note": {
+    "en": "Orthoptera is an order of insects that comprises the grasshoppers, locusts, and crickets, including closely related insects, such as the bush crickets or katydids and wētā. The order is subdivided into two suborders: Caelifera – grasshoppers, locusts, and close relatives; and Ensifera – crickets and close relatives.",
     "de": "In dieser Ordnung sind etwa 17000 Arten bekannt, von denen mehr als die Hälfte Heuschrecken sind."
   },
   "inScheme": {

@@ -29,6 +29,7 @@
   "broader": {
     "id": "https://example.org/insekten/Schnabelkerfe",
     "prefLabel": {
+      "en": "Hemiptera",
       "de": "Schnabelkerfe",
       "lat": "Hemiptera"
     }

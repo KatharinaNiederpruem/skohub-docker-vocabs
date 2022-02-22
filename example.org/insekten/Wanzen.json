@@ -4,8 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FWanzen",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FWanzen",
   "prefLabel": {
+    "en": "Heteroptera",
     "de": "Wanzen",
     "lat": "Heteroptera"
+  },
+  "altLabel": {
+    "en": [
+      "true bugs",
+      "typical bugs"
+    ]
   },
   "definition": {
     "de": "Schnabelkerfe, deren Vorderflügel aus einem ledrigen Grundabschnitt und einem häutigen Spitzenteil bestehen"
@@ -13,6 +20,7 @@
   "broader": {
     "id": "https://example.org/insekten/Schnabelkerfe",
     "prefLabel": {
+      "en": "Hemiptera",
       "de": "Schnabelkerfe",
       "lat": "Hemiptera"
     }
