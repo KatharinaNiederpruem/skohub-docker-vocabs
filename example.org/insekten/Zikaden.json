@@ -4,14 +4,23 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FZikaden",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FZikaden",
   "prefLabel": {
-    "de": "Zikaden",
-    "lat": "Auchenorrhyncha"
+    "en": "Auchenorrhyncha",
+    "de": "Zikaden"
+  },
+  "altLabel": {
+    "en": [
+      "cicada"
+    ],
+    "de": [
+      "Auchenorrhyncha",
+      "Zirpen"
+    ]
   },
   "broader": {
     "id": "https://example.org/insekten/Gleichfluegler",
     "prefLabel": {
       "de": "Gleichflügler",
-      "lat": "Homoptera"
+      "eng": "Homoptera"
     }
   },
   "inScheme": {

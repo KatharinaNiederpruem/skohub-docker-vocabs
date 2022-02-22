@@ -8,10 +8,12 @@
     "de": "Springschrecken"
   },
   "altLabel": {
-    "de": [
-      "Heuschrecken"
+    "en": [
+      "grasshopper",
+      "cricket"
     ],
-    "lat": [
+    "de": [
+      "Heuschrecken",
       "Saltatoria"
     ]
   },

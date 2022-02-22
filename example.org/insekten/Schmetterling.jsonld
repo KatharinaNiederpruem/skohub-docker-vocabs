@@ -4,25 +4,34 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FSchmetterling",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FSchmetterling",
   "prefLabel": {
-    "de": "Schmetterlinge",
-    "lat": "Lepidoptera"
+    "en": "Lepidoptera",
+    "de": "Schmetterling"
+  },
+  "altLabel": {
+    "en": [
+      "butterfly"
+    ],
+    "de": [
+      "Lepidoptera"
+    ]
   },
   "note": {
+    "en": "Lepidoptera is one of the most widespread and widely recognizable insect orders in the world.",
     "de": "Eine sehr große Ordnung mit etwa 150000 bekannten Arten. Etwa 5000 Arten kommen in Europa vor, die Hälfte davon auch auf den Britischen Inseln."
   },
   "narrower": [
     {
       "id": "https://example.org/insekten/Schwalbenschwanz",
       "prefLabel": {
-        "de": "Schwalbenschwanz",
-        "lat": "Papilinodae"
+        "en": "Papilio machaon",
+        "de": "Schwalbenschwanz"
       }
     },
     {
       "id": "https://example.org/insekten/Weissling",
       "prefLabel": {
-        "de": "Weisslinge",
-        "lat": "Pieridae"
+        "en": "Pieridae",
+        "de": "Weisslinge"
       }
     }
   ],

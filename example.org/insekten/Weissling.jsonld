@@ -4,33 +4,39 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FWeissling",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FWeissling",
   "prefLabel": {
-    "de": "Weisslinge",
-    "lat": "Pieridae"
+    "en": "Pieridae",
+    "de": "Weisslinge"
+  },
+  "altLabel": {
+    "de": [
+      "Pieridae"
+    ]
   },
   "note": {
+    "en": "Most pierid butterflies are white, yellow, or orange in coloration, often with black spots.",
     "de": "Eine große Familie, meist weiß oder gelb, häufig schwarz gezeichnet. Geschlechter oft unterschiedlich gefärbt."
   },
   "narrower": [
     {
       "id": "https://example.org/insekten/Kleiner-Kohlweissling",
       "prefLabel": {
-        "de": "Kleiner Kohlweißling",
-        "lat": "Pieris rapae"
+        "en": "Pieris rapae",
+        "de": "Kleiner Kohlweißling"
       }
     },
     {
       "id": "https://example.org/insekten/Rapsweissling",
       "prefLabel": {
-        "de": "Rapsweißling",
-        "lat": "Pieris napi"
+        "en": "Green-veined white",
+        "de": "Rapsweißling"
       }
     }
   ],
   "broader": {
     "id": "https://example.org/insekten/Schmetterling",
     "prefLabel": {
-      "de": "Schmetterlinge",
-      "lat": "Lepidoptera"
+      "en": "Lepidoptera",
+      "de": "Schmetterling"
     }
   },
   "inScheme": {

@@ -4,25 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FSchwalbenschwanz",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FSchwalbenschwanz",
   "prefLabel": {
-    "de": "Schwalbenschwanz",
-    "lat": "Papilinodae"
+    "en": "Papilio machaon",
+    "de": "Schwalbenschwanz"
   },
   "altLabel": {
-    "de": [
-      "Apollofalter"
+    "en": [
+      "Old World swallowtail",
+      "common yellow swallowtail",
+      "swallowtail"
     ],
-    "lat": [
-      "Papilinodae"
+    "de": [
+      "Apollofalter",
+      "Papilinodae",
+      "Papilio machaon"
     ]
   },
   "note": {
+    "en": "This species is named after Machaon a figure in Greek mythology. He was a son of Asclepius.",
     "de": "Meist große, schön gefärbte Schmetterlinge"
   },
   "broader": {
     "id": "https://example.org/insekten/Schmetterling",
     "prefLabel": {
-      "de": "Schmetterlinge",
-      "lat": "Lepidoptera"
+      "en": "Lepidoptera",
+      "de": "Schmetterling"
     }
   },
   "inScheme": {

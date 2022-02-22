@@ -4,25 +4,35 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FBlattlaeuse",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FBlattlaeuse",
   "prefLabel": {
-    "de": "Blattläuse",
-    "lat": "Aphidoidea"
+    "en": "Aphid",
+    "de": "Blattläuse"
+  },
+  "altLabel": {
+    "en": [
+      "greenfly",
+      "blackfly"
+    ],
+    "de": [
+      "Aphidoidea"
+    ]
   },
   "definition": {
-    "de": "sehr kleine, tropfenförmige, Pflanzensäfte saugende Schnabelkerfe"
+    "en": "Aphids are small sap-sucking insects",
+    "de": "Sehr kleine, tropfenförmige, Pflanzensäfte saugende Schnabelkerfe"
   },
   "narrower": [
     {
       "id": "https://example.org/insekten/Reblaus",
       "prefLabel": {
-        "de": "Reblaus",
-        "lat": "Viteus vitifolii"
+        "en": "Grape phylloxera",
+        "de": "Reblaus"
       }
     },
     {
       "id": "https://example.org/insekten/Gruene-Fichtengallenlaus",
       "prefLabel": {
-        "de": "Grüne Fichtengallenlaus",
-        "lat": "Adelges viridis"
+        "en": "green spruce aphid",
+        "de": "Grüne Fichtengallenlaus"
       }
     }
   ],
@@ -30,7 +40,7 @@
     "id": "https://example.org/insekten/Gleichfluegler",
     "prefLabel": {
       "de": "Gleichflügler",
-      "lat": "Homoptera"
+      "eng": "Homoptera"
     }
   },
   "inScheme": {

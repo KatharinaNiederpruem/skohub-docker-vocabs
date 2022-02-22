@@ -4,17 +4,27 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FReblaus",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FReblaus",
   "prefLabel": {
-    "de": "Reblaus",
-    "lat": "Viteus vitifolii"
+    "en": "Grape phylloxera",
+    "de": "Reblaus"
+  },
+  "altLabel": {
+    "en": [
+      "Daktulosphaira vitifoliae"
+    ],
+    "de": [
+      "Daktulosphaira vitifoliae",
+      "Viteus vitifolii"
+    ]
   },
   "note": {
-    "de": "Amerikanischer Rebenschädling, in Europa weit verbreitet"
+    "en": "grape phylloxera is an insect pest of commercial grapevines worldwide, originally native to eastern North America.",
+    "de": "Amerikanischer Rebenschädling, der in Europa weit verbreitet ist."
   },
   "broader": {
     "id": "https://example.org/insekten/Blattlaeuse",
     "prefLabel": {
-      "de": "Blattläuse",
-      "lat": "Aphidoidea"
+      "en": "Aphid",
+      "de": "Blattläuse"
     }
   },
   "inScheme": {

@@ -5,24 +5,30 @@
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FGleichfluegler",
   "prefLabel": {
     "de": "Gleichflügler",
-    "lat": "Homoptera"
+    "eng": "Homoptera"
+  },
+  "altLabel": {
+    "de": [
+      "Homoptera"
+    ]
   },
   "definition": {
+    "en": "Homoptera is a suborder of order Hemiptera.",
     "de": "Schnabelkerfen, bei denen die Vorderflügel, sofern überhaupt ausgebildet, einheitlich ledrig oder häutig sind."
   },
   "narrower": [
     {
       "id": "https://example.org/insekten/Zikaden",
       "prefLabel": {
-        "de": "Zikaden",
-        "lat": "Auchenorrhyncha"
+        "en": "Auchenorrhyncha",
+        "de": "Zikaden"
       }
     },
     {
       "id": "https://example.org/insekten/Blattlaeuse",
       "prefLabel": {
-        "de": "Blattläuse",
-        "lat": "Aphidoidea"
+        "en": "Aphid",
+        "de": "Blattläuse"
       }
     }
   ],
@@ -30,8 +36,7 @@
     "id": "https://example.org/insekten/Schnabelkerfe",
     "prefLabel": {
       "en": "Hemiptera",
-      "de": "Schnabelkerfe",
-      "lat": "Hemiptera"
+      "de": "Schnabelkerfe"
     }
   },
   "inScheme": {

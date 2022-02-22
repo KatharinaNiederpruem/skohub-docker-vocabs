@@ -5,24 +5,26 @@
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FWanzen",
   "prefLabel": {
     "en": "Heteroptera",
-    "de": "Wanzen",
-    "lat": "Heteroptera"
+    "de": "Wanzen"
   },
   "altLabel": {
     "en": [
       "true bugs",
       "typical bugs"
+    ],
+    "de": [
+      "Heteroptera"
     ]
   },
   "definition": {
+    "en": "The Heteroptera are a group of about 40,000 species of insects in the order Hemiptera.",
     "de": "Schnabelkerfe, deren Vorderflügel aus einem ledrigen Grundabschnitt und einem häutigen Spitzenteil bestehen"
   },
   "broader": {
     "id": "https://example.org/insekten/Schnabelkerfe",
     "prefLabel": {
       "en": "Hemiptera",
-      "de": "Schnabelkerfe",
-      "lat": "Hemiptera"
+      "de": "Schnabelkerfe"
     }
   },
   "inScheme": {
