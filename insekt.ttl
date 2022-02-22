@@ -13,14 +13,14 @@ insekt: a skos:ConceptScheme ;
   
 insekt:Borstenschwaenze a skos:Concept ;
   skos:prefLabel "Borstenschwänze"@de, "Thysanura"@en ;
-  skos:altLabel "Zottenschwänze"@de, "Thysanura"@de, "Apterygota"@en;
-  skos:note "Primitive, flügellose Art aus der Gruppe der Flügellosen ohne eigentliche Metamorphose."@de, "Thysanura are wingless and have bodies covered with fine scales"@en ;
+  skos:altLabel "Thysanura"@de, "Zottenschwänze"@de, "Apterygota"@en;
+  skos:note "Primitive, flügellose Art aus der Gruppe der Flügellosen ohne eigentliche Metamorphose."@de, "Thysanura are wingless and have bodies covered with fine scales."@en ;
   skos:historyNote "Früher Ordnung der Urinsekten. Heute in zwei Ordnungen aufgeteilt: Silberfischen und Felsenspringer"@de, "Thysanura is the now deprecated name of what was, for over a century, recognised as an order in the class Insecta. The two constituent groups within the former order are the Archaeognatha (jumping bristletails) and the Zygentoma (silverfish and firebrats)."@en ;
   skos:topConceptOf insekt: .
 
 insekt:Springschrecken a skos:Concept ;
   skos:prefLabel "Springschrecken"@de,  "Orthoptera"@en ;
-  skos:altLabel "Heuschrecken"@de, "Saltatoria"@de, "grasshopper"@en, "cricket"@en ; 
+  skos:altLabel "Saltatoria"@de, "Heuschrecken"@de, "grasshopper"@en, "cricket"@en ; 
   skos:hiddenLabel "Grashüpfer"@de ;
   skos:note "In dieser Ordnung sind etwa 17000 Arten bekannt, von denen mehr als die Hälfte Heuschrecken sind."@de, "Orthoptera is an order of insects that comprises the grasshoppers, locusts, and crickets, including closely related insects, such as the bush crickets or katydids and wētā. The order is subdivided into two suborders: Caelifera – grasshoppers, locusts, and close relatives; and Ensifera – crickets and close relatives." @en ;
   skos:topConceptOf insekt: .
@@ -35,7 +35,7 @@ insekt:Schnabelkerfe a skos:Concept ;
   insekt:Wanzen a skos:Concept ;
     skos:prefLabel "Wanzen"@de, "Heteroptera"@en ;
     skos:altLabel "Heteroptera"@de, "true bugs"@en, "typical bugs"@en ;
-    skos:definition "Schnabelkerfe, deren Vorderflügel aus einem ledrigen Grundabschnitt und einem häutigen Spitzenteil bestehen"@de, "The Heteroptera are a group of about 40,000 species of insects in the order Hemiptera."@en ;
+    skos:definition "Schnabelkerfen, deren Vorderflügel aus einem ledrigen Grundabschnitt und einem häutigen Spitzenteil bestehen."@de, "The Heteroptera are a group of about 40,000 species of insects in the order Hemiptera."@en ;
     skos:broader insekt:Schnabelkerfe ;
     skos:inScheme insekt: .
 
@@ -56,7 +56,7 @@ insekt:Schnabelkerfe a skos:Concept ;
     insekt:Blattlaeuse a skos:Concept ;
      skos:prefLabel "Blattläuse"@de, "Aphid"@en  ;
      skos:altLabel "Aphidoidea"@de, "greenfly"@en, "blackfly"@en ;
-     skos:definition "Sehr kleine, tropfenförmige, Pflanzensäfte saugende Schnabelkerfe"@de, "Aphids are small sap-sucking insects"@en ;
+     skos:definition "Sehr kleine, tropfenförmige, Pflanzensäfte saugende Schnabelkerfe."@de, "Aphids are small sap-sucking insects."@en ;
      skos:broader insekt:Gleichfluegler ;
      skos:narrower insekt:Reblaus, insekt:Gruene-Fichtengallenlaus ;
      skos:inScheme insekt: .
@@ -64,15 +64,15 @@ insekt:Schnabelkerfe a skos:Concept ;
       insekt:Reblaus a skos:Concept ;
       skos:prefLabel "Reblaus"@de, "Grape phylloxera"@en ;
       skos:altLabel "Daktulosphaira vitifoliae"@de, "Viteus vitifolii"@de, "Daktulosphaira vitifoliae"@en ;
-      skos:note "Amerikanischer Rebenschädling, der in Europa weit verbreitet ist."@de, "grape phylloxera is an insect pest of commercial grapevines worldwide, originally native to eastern North America."@en ;
+      skos:note "Amerikanischer Rebenschädling, der in Europa weit verbreitet ist."@de, "Grape phylloxera is an insect pest of commercial grapevines worldwide, originally native to eastern North America."@en ;
       skos:broader insekt:Blattlaeuse ;
       skos:inScheme insekt: .
 
       insekt:Gruene-Fichtengallenlaus a skos:Concept ;
-       skos:prefLabel "Grüne Fichtengallenlaus"@de, "green spruce aphid"@en ;
+       skos:prefLabel "Grüne Fichtengallenlaus"@de, "Green spruce aphid"@en ;
        skos:altLabel "Sacchiphantes viridis"@de, "Adelges viridis"@de, "Elatobium abietinum"@en ;
        skos:broader insekt:Blattlaeuse ;
-       skos:note "Dei grüne Fichtengallenlaus erzeugt zapfenartige Gallen an Fichtentrieben."@de, "reen spruce aphid (Elatobium abietinum) is an important defoliating pest of spruce trees (trees in the Picea genus), especially Sitka spruce (Picea sitchensis), which is widely grown in the UK for the softwood timber market."@en ;
+       skos:note "Die grüne Fichtengallenlaus erzeugt zapfenartige Gallen an Fichtentrieben."@de, "Green spruce aphid (Elatobium abietinum) is an important defoliating pest of spruce trees (trees in the Picea genus), especially Sitka spruce (Picea sitchensis), which is widely grown in the UK for the softwood timber market."@en ;
        skos:inScheme insekt: .
 
 insekt:Schmetterling a skos:Concept ;
@@ -92,7 +92,7 @@ insekt:Schmetterling a skos:Concept ;
   insekt:Weissling a skos:Concept ;
     skos:prefLabel "Weisslinge"@de, "Pieridae"@en ;
     skos:altLabel "Pieridae"@de ; 
-    skos:note "Eine große Familie, meist weiß oder gelb, häufig schwarz gezeichnet. Geschlechter oft unterschiedlich gefärbt."@de, "Most pierid butterflies are white, yellow, or orange in coloration, often with black spots."@en ;
+    skos:note "Eine große Familie, meist weiß oder gelb, häufig schwarz gezeichnet. Geschlechter sind oft unterschiedlich gefärbt."@de, "Most pierid butterflies are white, yellow, or orange in coloration, often with black spots."@en ;
     skos:broader insekt:Schmetterling ;
     skos:narrower insekt:Kleiner-Kohlweissling, insekt:Rapsweissling ;
     skos:inScheme insekt: .
@@ -100,7 +100,7 @@ insekt:Schmetterling a skos:Concept ;
     insekt:Kleiner-Kohlweissling a skos:Concept ;
       skos:prefLabel "Kleiner Kohlweißling"@de, "Pieris rapae"@en ;
       skos:altLabel "Pieris rapae"@de, "small white"@en, "cabbage white"@en, "cabbage butterfly"@en;
-      skos:note "Die Art ist in Europa, Asien und Nordafrika heimisch."@de, "The species has a natural range across Europe, Asia, and North Africa"@en;
+      skos:note "Die Art ist in Europa, Asien und Nordafrika heimisch."@de, "The species has a natural range across Europe, Asia, and North Africa."@en;
       skos:broader insekt:Weissling ;
       skos:inScheme insekt: .
 
