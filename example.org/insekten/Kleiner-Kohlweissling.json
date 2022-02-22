@@ -35,13 +35,6 @@
         "en": "Lepidoptera",
         "de": "Schmetterlinge"
       }
-    },
-    {
-      "id": "https://example.org/insekten/Rapsweissling",
-      "prefLabel": {
-        "en": "Green-veined white",
-        "de": "Rapsweißling"
-      }
     }
   ],
   "inScheme": {

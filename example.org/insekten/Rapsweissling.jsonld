@@ -31,13 +31,6 @@
         "en": "Lepidoptera",
         "de": "Schmetterlinge"
       }
-    },
-    {
-      "id": "https://example.org/insekten/Kleiner-Kohlweissling",
-      "prefLabel": {
-        "en": "Pieris rapae",
-        "de": "Kleiner Kohlweißling"
-      }
     }
   ],
   "inScheme": {

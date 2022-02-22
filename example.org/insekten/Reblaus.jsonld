@@ -41,13 +41,6 @@
         "en": "Homoptera",
         "de": "Gleichflügler"
       }
-    },
-    {
-      "id": "https://example.org/insekten/Gruene-Fichtengallenlaus",
-      "prefLabel": {
-        "en": "Green spruce aphid",
-        "de": "Grüne Fichtengallenlaus"
-      }
     }
   ],
   "inScheme": {

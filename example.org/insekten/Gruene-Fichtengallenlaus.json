@@ -41,13 +41,6 @@
         "en": "Homoptera",
         "de": "Gleichflügler"
       }
-    },
-    {
-      "id": "https://example.org/insekten/Reblaus",
-      "prefLabel": {
-        "en": "Grape phylloxera",
-        "de": "Reblaus"
-      }
     }
   ],
   "inScheme": {
