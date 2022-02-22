@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FGruene-Fichtengallenlaus",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FGruene-Fichtengallenlaus",
   "prefLabel": {
-    "en": "green spruce aphid",
+    "en": "Green spruce aphid",
     "de": "Grüne Fichtengallenlaus"
   },
   "altLabel": {
@@ -17,8 +17,8 @@
     ]
   },
   "note": {
-    "en": "reen spruce aphid (Elatobium abietinum) is an important defoliating pest of spruce trees (trees in the Picea genus), especially Sitka spruce (Picea sitchensis), which is widely grown in the UK for the softwood timber market.",
-    "de": "Dei grüne Fichtengallenlaus erzeugt zapfenartige Gallen an Fichtentrieben."
+    "en": "Green spruce aphid (Elatobium abietinum) is an important defoliating pest of spruce trees (trees in the Picea genus), especially Sitka spruce (Picea sitchensis), which is widely grown in the UK for the softwood timber market.",
+    "de": "Die grüne Fichtengallenlaus erzeugt zapfenartige Gallen an Fichtentrieben."
   },
   "broader": {
     "id": "https://example.org/insekten/Blattlaeuse",

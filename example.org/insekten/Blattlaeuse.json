@@ -17,8 +17,8 @@
     ]
   },
   "definition": {
-    "en": "Aphids are small sap-sucking insects",
-    "de": "Sehr kleine, tropfenförmige, Pflanzensäfte saugende Schnabelkerfe"
+    "en": "Aphids are small sap-sucking insects.",
+    "de": "Sehr kleine, tropfenförmige, Pflanzensäfte saugende Schnabelkerfe."
   },
   "narrower": [
     {
@@ -31,7 +31,7 @@
     {
       "id": "https://example.org/insekten/Gruene-Fichtengallenlaus",
       "prefLabel": {
-        "en": "green spruce aphid",
+        "en": "Green spruce aphid",
         "de": "Grüne Fichtengallenlaus"
       }
     }
