@@ -26,13 +26,15 @@ insekt:Schnabelkerfe a skos:Concept ;
 
   insekt:Wanzen a skos:Concept ;
     skos:prefLabel "Wanzen"@de, "Heteroptera"@lat ;
+    skos:definition "Schnabelkerfe, deren Vorderflügel aus einem ledrigen Grundabschnitt und einem häutigen Spitzenteil bestehen" ;
     skos:broader insekt:Schnabelkerfe ;
     skos:inScheme insekt: .
 
   insekt:Gleichfluegler a skos:Concept ;
     skos:prefLabel "Gleichflügler"@de, "Homoptera"@lat ;
+    skos:definition "Schnabelkerfen, bei denen die Vorderflügel, sofern überhaupt ausgebildet, einheitlich ledrig oder häutig sind." ;
     skos:broader insekt:Schnabelkerfe ;
-    skos:narrower  insekt:Zikaden, insekt:Blattlaeuse;
+    skos:narrower insekt:Zikaden, insekt:Blattlaeuse;
     skos:inScheme insekt: .
 
     insekt:Zikaden a skos:Concept ;
@@ -42,39 +44,46 @@ insekt:Schnabelkerfe a skos:Concept ;
 
     insekt:Blattlaeuse a skos:Concept ;
      skos:prefLabel "Blattläuse"@de, "Aphidoidea"@lat ;
+     skos:definition "sehr kleine, tropfenförmige, Pflanzensäfte saugende Schnabelkerfe" ;
      skos:broader insekt:Gleichfluegler ;
-     skos:narrower  insekt:Reblaus, insekt:Gruene-Fichtengallenlaus ;
+     skos:narrower insekt:Reblaus, insekt:Gruene-Fichtengallenlaus ;
      skos:inScheme insekt: .
 
       insekt:Reblaus a skos:Concept ;
       skos:prefLabel "Reblaus"@de, "Viteus vitifolii"@lat ;
+      skos:note "Amerikanischer Rebenschädling, in Europa weit verbreitet" ;
       skos:broader insekt:Blattlaeuse ;
       skos:inScheme insekt: .
 
       insekt:Gruene-Fichtengallenlaus a skos:Concept ;
        skos:prefLabel "Grüne Fichtengallenlaus"@de, "Adelges viridis"@lat ;
        skos:broader insekt:Blattlaeuse ;
+       skos:note "Erzeugt zapfenartige Gallen an Fichtentrieben" ;
        skos:inScheme insekt: .
 
 insekt:Schmetterling a skos:Concept ;
   skos:prefLabel "Schmetterlinge"@de, "Lepidoptera"@lat ;
+  skos:note "Eine sehr große Ordnung mit etwa 150000 bekannten Arten. Etwa 5000 Arten kommen in Europa vor, die Hälfte davon auch auf den Britischen Inseln." ;
   skos:narrower insekt:Schwalbenschwanz, insekt:Weissling ;
   skos:topConceptOf insekt: .
 
   insekt:Schwalbenschwanz a skos:Concept ;
     skos:prefLabel "Schwalbenschwanz"@de, "Papilinodae"@lat ;
-    skos:altLabel "Apollofalter"@de ;
+    skos:altLabel "Apollofalter"@de, "Papilinodae"@lat ;
+    skos:note "Meist große, schön gefärbte Schmetterlinge" ;
     skos:broader insekt:Schmetterling ;
-    skos:tinScheme insekt: .
+    skos:inScheme insekt: .
 
   insekt:Weissling a skos:Concept ;
     skos:prefLabel "Weisslinge"@de, "Pieridae"@lat ;
+    skos:note "Eine große Familie, meist weiß oder gelb, häufig schwarz gezeichnet. Geschlechter oft unterschiedlich gefärbt." ;
     skos:broader insekt:Schmetterling ;
     skos:narrower insekt:Kleiner-Kohlweissling, insekt:Rapsweissling ;
     skos:inScheme insekt: .
 
     insekt:Kleiner-Kohlweissling a skos:Concept ;
       skos:prefLabel "Kleiner Kohlweißling"@de, "Pieris rapae"@lat ;
+      skos:note "Überall auf Kohlarten, wilden Kreuzblütlern, häufig recht schädlich" ;
       skos:broader insekt:Weissling ;
       skos:inScheme insekt: .
 
