@@ -4,12 +4,12 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 insekt: a skos:ConceptScheme ;
-  dct:title "Insekten"@de, "Insects"@en, "Insecta"@lat ;
+  dct:title "Insekten Europas"@de, "Insects in Europe"@en, "Insecta"@lat ;
   dct:creator "Katharina Niederprüm"@de ;
   dct:created "2022-02-21" ;
   dct:license <https://creativecommons.org/publicdomain/zero/4.0/> ;
-  dct:description "Insekten Europas"@de, "Insects in Europe"@en ;
-  skos:hasTopConcept insekt:Borstenschwaenze .
+  dct:description "Auszug aus der Systematik der Insekten Europas"@de, "Some common insects in Europe"@en ;
+  skos:hasTopConcept insekt:Borstenschwaenze, insekt:Springschrecken, insekt:Schnabelkerfe, insekt:Schmetterling .
   
 insekt:Borstenschwaenze a skos:Concept ;
   skos:prefLabel "Borstenschwänze"@de, "Thysanura"@lat ;
@@ -21,49 +21,64 @@ insekt:Springschrecken a skos:Concept ;
 
 insekt:Schnabelkerfe a skos:Concept ;
   skos:prefLabel "Schnabelkerfe"@de, "Hemiptera"@lat ;
+  skos:narrower insekt:Wanzen, insekt:Gleichfluegler ;
   skos:topConceptOf insekt: .
 
-insekt:Wanzen a skos:Concept ;
-  skos:prefLabel "Wanzen"@de, "Heteroptera"@lat ;
-  skos:topConceptOf insekt: .
+  insekt:Wanzen a skos:Concept ;
+    skos:prefLabel "Wanzen"@de, "Heteroptera"@lat ;
+    skos:broader insekt:Schnabelkerfe ;
+    skos:inScheme insekt: .
 
-insekt:Gleichfluegler a skos:Concept ;
-  skos:prefLabel "Gleichflügler"@de, "Homoptera"@lat ;
-  skos:topConceptOf insekt: .
+  insekt:Gleichfluegler a skos:Concept ;
+    skos:prefLabel "Gleichflügler"@de, "Homoptera"@lat ;
+    skos:broader insekt:Schnabelkerfe ;
+    skos:narrower  insekt:Zikaden, insekt:Blattlaeuse;
+    skos:inScheme insekt: .
 
-insekt:Zikaden a skos:Concept ;
-  skos:prefLabel "Zikaden"@de, "Auchenorrhyncha"@lat ;
-  skos:topConceptOf insekt: .
+    insekt:Zikaden a skos:Concept ;
+      skos:prefLabel "Zikaden"@de, "Auchenorrhyncha"@lat ;
+      skos:broader insekt:Gleichfluegler ;
+      skos:inScheme insekt: .
 
-insekt:Blattlaeuse a skos:Concept ;
-  skos:prefLabel "Blattläuse"@de, "Aphidoidea"@lat ;
-  skos:topConceptOf insekt: .
+    insekt:Blattlaeuse a skos:Concept ;
+     skos:prefLabel "Blattläuse"@de, "Aphidoidea"@lat ;
+     skos:broader insekt:Gleichfluegler ;
+     skos:narrower  insekt:Reblaus, insekt:Gruene-Fichtengallenlaus ;
+     skos:inScheme insekt: .
 
-insekt:Reblaus a skos:Concept ;
-  skos:prefLabel "Reblaus"@de, "Viteus vitifolii"@lat ;
-  skos:topConceptOf insekt: .
+      insekt:Reblaus a skos:Concept ;
+      skos:prefLabel "Reblaus"@de, "Viteus vitifolii"@lat ;
+      skos:broader insekt:Blattlaeuse ;
+      skos:inScheme insekt: .
 
-insekt:Gruene-Fichtengallenlaus a skos:Concept ;
-  skos:prefLabel "Grüne Fichtengallenlaus"@de, "Adelges viridis"@lat ;
-  skos:topConceptOf insekt: .
+      insekt:Gruene-Fichtengallenlaus a skos:Concept ;
+       skos:prefLabel "Grüne Fichtengallenlaus"@de, "Adelges viridis"@lat ;
+       skos:broader insekt:Blattlaeuse ;
+       skos:inScheme insekt: .
 
 insekt:Schmetterling a skos:Concept ;
   skos:prefLabel "Schmetterlinge"@de, "Lepidoptera"@lat ;
+  skos:narrower insekt:Schwalbenschwanz, insekt:Weissling ;
   skos:topConceptOf insekt: .
 
-insekt:Schwalbenschwanz a skos:Concept ;
-  skos:prefLabel "Schwalbenschwanz"@de, "Papilinodae"@lat ;
-  skos:altLabel "Apollofalter"@de ;
-  skos:topConceptOf insekt: .
+  insekt:Schwalbenschwanz a skos:Concept ;
+    skos:prefLabel "Schwalbenschwanz"@de, "Papilinodae"@lat ;
+    skos:altLabel "Apollofalter"@de ;
+    skos:broader insekt:Schmetterling ;
+    skos:tinScheme insekt: .
 
-insekt:Weissling a skos:Concept ;
-  skos:prefLabel "Weisslinge"@de, "Pieridae"@lat ;
-  skos:topConceptOf insekt: .
+  insekt:Weissling a skos:Concept ;
+    skos:prefLabel "Weisslinge"@de, "Pieridae"@lat ;
+    skos:broader insekt:Schmetterling ;
+    skos:narrower insekt:Kleiner-Kohlweissling, insekt:Rapsweissling ;
+    skos:inScheme insekt: .
 
-insekt:Kleiner-Kohlweissling a skos:Concept ;
-  skos:prefLabel "Kleiner Kohlweißling"@de, "Pieris rapae"@lat ;
-  skos:topConceptOf insekt: .
+    insekt:Kleiner-Kohlweissling a skos:Concept ;
+      skos:prefLabel "Kleiner Kohlweißling"@de, "Pieris rapae"@lat ;
+      skos:broader insekt:Weissling ;
+      skos:inScheme insekt: .
 
-insekt:Rapsweissling a skos:Concept ;
-  skos:prefLabel "Rapsweißling"@de, "Pieris napi"@lat ;
-  skos:topConceptOf insekt: .
+    insekt:Rapsweissling a skos:Concept ;
+      skos:prefLabel "Rapsweißling"@de, "Pieris napi"@lat ;
+      skos:broader insekt:Weissling ;
+      skos:inScheme insekt: .
