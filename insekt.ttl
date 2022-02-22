@@ -100,7 +100,7 @@ insekt:Schmetterling a skos:Concept ;
     insekt:Kleiner-Kohlweissling a skos:Concept ;
       skos:prefLabel "Kleiner Kohlweißling"@de, "Pieris rapae"@en ;
       skos:altLabel "Pieris rapae"@de, "small white"@en, "cabbage white"@en, "cabbage butterfly"@en;
-      skos:note "Die Art ist in Europa, Asien und Nordafrika heimisch."@de "The species has a natural range across Europe, Asia, and North Africa"@en;
+      skos:note "Die Art ist in Europa, Asien und Nordafrika heimisch."@de, "The species has a natural range across Europe, Asia, and North Africa"@en;
       skos:broader insekt:Weissling ;
       skos:inScheme insekt: .
 
