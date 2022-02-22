@@ -4,7 +4,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 insekt: a skos:ConceptScheme ;
-  dct:title "Insekten Europas"@de, "Insects in Europe"@en, "Insecta"@lat ;
+  dct:title "Insekten Europas"@de, "Insects in Europe"@en ;
   dct:creator "Katharina Niederprüm"@de ;
   dct:created "2022-02-21" ;
   dct:license <https://creativecommons.org/publicdomain/zero/4.0/> ;
@@ -12,15 +12,15 @@ insekt: a skos:ConceptScheme ;
   skos:hasTopConcept insekt:Borstenschwaenze, insekt:Springschrecken, insekt:Schnabelkerfe, insekt:Schmetterling .
   
 insekt:Borstenschwaenze a skos:Concept ;
-  skos:prefLabel "Borstenschwänze"@de, "Thysanura"@lat, "Thysanura"@en ;
-  skos:altLabel "Zottenschwänze"@de, "Apterygota"@en;
-  skos:note "Primitive, flügellose Art aus der Gruppe der Flügellosen ohne eigentliche Metamorphose."@de, "They are wingless and have bodies covered with fine scales"@en ;
+  skos:prefLabel "Borstenschwänze"@de, "Thysanura"@en ;
+  skos:altLabel "Zottenschwänze"@de, "Thysanura"@de, "Apterygota"@en;
+  skos:note "Primitive, flügellose Art aus der Gruppe der Flügellosen ohne eigentliche Metamorphose."@de, "Thysanura are wingless and have bodies covered with fine scales"@en ;
   skos:historyNote "Früher Ordnung der Urinsekten. Heute in zwei Ordnungen aufgeteilt: Silberfischen und Felsenspringer"@de, "Thysanura is the now deprecated name of what was, for over a century, recognised as an order in the class Insecta. The two constituent groups within the former order are the Archaeognatha (jumping bristletails) and the Zygentoma (silverfish and firebrats)"@en ;
   skos:topConceptOf insekt: .
 
 insekt:Springschrecken a skos:Concept ;
-  skos:prefLabel "Springschrecken"@de, "Saltatoria"@lat, "Orthoptera"@en ;
-  skos:altLabel "Heuschrecken"@de ; 
+  skos:prefLabel "Springschrecken"@de,  "Orthoptera"@en ;
+  skos:altLabel "Heuschrecken"@de, "Saltatoria"@lat ; 
   skos:hiddenLabel "Grashüpfer"@de, "grasshopper"@en ;
   skos:note "In dieser Ordnung sind etwa 17000 Arten bekannt, von denen mehr als die Hälfte Heuschrecken sind."@de, "Orthoptera is an order of insects that comprises the grasshoppers, locusts, and crickets, including closely related insects, such as the bush crickets or katydids and wētā. The order is subdivided into two suborders: Caelifera – grasshoppers, locusts, and close relatives; and Ensifera – crickets and close relatives." @en ;
   skos:topConceptOf insekt: .
