@@ -85,7 +85,7 @@ insekt:Schmetterling a skos:Concept ;
   insekt:Schwalbenschwanz a skos:Concept ;
     skos:prefLabel "Schwalbenschwanz"@de, "Papilio machaon"@en ;
     skos:altLabel "Apollofalter"@de, "Papilinodae"@de, "Papilio machaon"@de, "Old World swallowtail"@en, "common yellow swallowtail"@en, "swallowtail"@en  ;
-    skos:note "Meist große, schön gefärbte Schmetterlinge"@de "This species is named after Machaon a figure in Greek mythology. He was a son of Asclepius."@en ;
+    skos:note "Meist große, schön gefärbte Schmetterlinge"@de, "This species is named after Machaon a figure in Greek mythology. He was a son of Asclepius."@en ;
     skos:broader insekt:Schmetterling ;
     skos:inScheme insekt: .
 
