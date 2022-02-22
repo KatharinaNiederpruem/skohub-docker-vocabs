@@ -27,6 +27,29 @@
       "de": "Blattläuse"
     }
   },
+  "related": [
+    {
+      "id": "https://example.org/insekten/Schnabelkerfe",
+      "prefLabel": {
+        "en": "Hemiptera",
+        "de": "Schnabelkerfen"
+      }
+    },
+    {
+      "id": "https://example.org/insekten/Gleichfluegler",
+      "prefLabel": {
+        "en": "Homoptera",
+        "de": "Gleichflügler"
+      }
+    },
+    {
+      "id": "https://example.org/insekten/Gruene-Fichtengallenlaus",
+      "prefLabel": {
+        "en": "Green spruce aphid",
+        "de": "Grüne Fichtengallenlaus"
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {

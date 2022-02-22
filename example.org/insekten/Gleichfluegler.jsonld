@@ -36,9 +36,25 @@
     "id": "https://example.org/insekten/Schnabelkerfe",
     "prefLabel": {
       "en": "Hemiptera",
-      "de": "Schnabelkerfe"
+      "de": "Schnabelkerfen"
     }
   },
+  "related": [
+    {
+      "id": "https://example.org/insekten/Reblaus",
+      "prefLabel": {
+        "en": "Grape phylloxera",
+        "de": "Reblaus"
+      }
+    },
+    {
+      "id": "https://example.org/insekten/Gruene-Fichtengallenlaus",
+      "prefLabel": {
+        "en": "Green spruce aphid",
+        "de": "Grüne Fichtengallenlaus"
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {

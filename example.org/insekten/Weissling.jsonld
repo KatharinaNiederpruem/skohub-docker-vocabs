@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FWeissling",
   "prefLabel": {
     "en": "Pieridae",
-    "de": "Weisslinge"
+    "de": "Weißlinge"
   },
   "altLabel": {
     "de": [
@@ -36,7 +36,7 @@
     "id": "https://example.org/insekten/Schmetterling",
     "prefLabel": {
       "en": "Lepidoptera",
-      "de": "Schmetterling"
+      "de": "Schmetterlinge"
     }
   },
   "inScheme": {

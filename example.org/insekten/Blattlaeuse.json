@@ -43,6 +43,15 @@
       "de": "Gleichflügler"
     }
   },
+  "related": [
+    {
+      "id": "https://example.org/insekten/Schnabelkerfe",
+      "prefLabel": {
+        "en": "Hemiptera",
+        "de": "Schnabelkerfen"
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {

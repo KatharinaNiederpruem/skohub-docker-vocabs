@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FSchnabelkerfe",
   "prefLabel": {
     "en": "Hemiptera",
-    "de": "Schnabelkerfe"
+    "de": "Schnabelkerfen"
   },
   "altLabel": {
     "en": [
@@ -33,6 +33,36 @@
       "prefLabel": {
         "en": "Homoptera",
         "de": "Gleichflügler"
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": "https://example.org/insekten/Zikaden",
+      "prefLabel": {
+        "en": "Auchenorrhyncha",
+        "de": "Zikaden"
+      }
+    },
+    {
+      "id": "https://example.org/insekten/Blattlaeuse",
+      "prefLabel": {
+        "en": "Aphid",
+        "de": "Blattläuse"
+      }
+    },
+    {
+      "id": "https://example.org/insekten/Reblaus",
+      "prefLabel": {
+        "en": "Grape phylloxera",
+        "de": "Reblaus"
+      }
+    },
+    {
+      "id": "https://example.org/insekten/Gruene-Fichtengallenlaus",
+      "prefLabel": {
+        "en": "Green spruce aphid",
+        "de": "Grüne Fichtengallenlaus"
       }
     }
   ],

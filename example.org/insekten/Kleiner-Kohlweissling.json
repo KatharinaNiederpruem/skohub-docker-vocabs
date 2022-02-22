@@ -25,9 +25,25 @@
     "id": "https://example.org/insekten/Weissling",
     "prefLabel": {
       "en": "Pieridae",
-      "de": "Weisslinge"
+      "de": "Weißlinge"
     }
   },
+  "related": [
+    {
+      "id": "https://example.org/insekten/Schmetterling",
+      "prefLabel": {
+        "en": "Lepidoptera",
+        "de": "Schmetterlinge"
+      }
+    },
+    {
+      "id": "https://example.org/insekten/Rapsweissling",
+      "prefLabel": {
+        "en": "Green-veined white",
+        "de": "Rapsweißling"
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {

@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FSchmetterling",
   "prefLabel": {
     "en": "Lepidoptera",
-    "de": "Schmetterling"
+    "de": "Schmetterlinge"
   },
   "altLabel": {
     "en": [
@@ -31,7 +31,23 @@
       "id": "https://example.org/insekten/Weissling",
       "prefLabel": {
         "en": "Pieridae",
-        "de": "Weisslinge"
+        "de": "Weißlinge"
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": "https://example.org/insekten/Kleiner-Kohlweissling",
+      "prefLabel": {
+        "en": "Pieris rapae",
+        "de": "Kleiner Kohlweißling"
+      }
+    },
+    {
+      "id": "https://example.org/insekten/Rapsweissling",
+      "prefLabel": {
+        "en": "Green-veined white",
+        "de": "Rapsweißling"
       }
     }
   ],
