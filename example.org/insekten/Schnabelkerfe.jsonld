@@ -7,11 +7,27 @@
     "de": "Schnabelkerfe",
     "lat": "Hemiptera"
   },
+  "narrower": [
+    {
+      "id": "https://example.org/insekten/Wanzen",
+      "prefLabel": {
+        "de": "Wanzen",
+        "lat": "Heteroptera"
+      }
+    },
+    {
+      "id": "https://example.org/insekten/Gleichfluegler",
+      "prefLabel": {
+        "de": "Gleichflügler",
+        "lat": "Homoptera"
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {
-      "en": "Insects",
-      "de": "Insekten",
+      "en": "Insects in Europe",
+      "de": "Insekten Europas",
       "lat": "Insecta"
     }
   },

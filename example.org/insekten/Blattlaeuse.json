@@ -7,16 +7,36 @@
     "de": "Blattläuse",
     "lat": "Aphidoidea"
   },
+  "narrower": [
+    {
+      "id": "https://example.org/insekten/Reblaus",
+      "prefLabel": {
+        "de": "Reblaus",
+        "lat": "Viteus vitifolii"
+      }
+    },
+    {
+      "id": "https://example.org/insekten/Gruene-Fichtengallenlaus",
+      "prefLabel": {
+        "de": "Grüne Fichtengallenlaus",
+        "lat": "Adelges viridis"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://example.org/insekten/Gleichfluegler",
+    "prefLabel": {
+      "de": "Gleichflügler",
+      "lat": "Homoptera"
+    }
+  },
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {
-      "en": "Insects",
-      "de": "Insekten",
+      "en": "Insects in Europe",
+      "de": "Insekten Europas",
       "lat": "Insecta"
     }
-  },
-  "topConceptOf": {
-    "id": "https://example.org/insekten/"
   },
   "@context": {
     "@version": 1.1,

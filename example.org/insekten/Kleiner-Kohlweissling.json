@@ -7,16 +7,20 @@
     "de": "Kleiner Kohlweißling",
     "lat": "Pieris rapae"
   },
+  "broader": {
+    "id": "https://example.org/insekten/Weissling",
+    "prefLabel": {
+      "de": "Weisslinge",
+      "lat": "Pieridae"
+    }
+  },
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {
-      "en": "Insects",
-      "de": "Insekten",
+      "en": "Insects in Europe",
+      "de": "Insekten Europas",
       "lat": "Insecta"
     }
-  },
-  "topConceptOf": {
-    "id": "https://example.org/insekten/"
   },
   "@context": {
     "@version": 1.1,

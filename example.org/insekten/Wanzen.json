@@ -7,16 +7,20 @@
     "de": "Wanzen",
     "lat": "Heteroptera"
   },
+  "broader": {
+    "id": "https://example.org/insekten/Schnabelkerfe",
+    "prefLabel": {
+      "de": "Schnabelkerfe",
+      "lat": "Hemiptera"
+    }
+  },
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {
-      "en": "Insects",
-      "de": "Insekten",
+      "en": "Insects in Europe",
+      "de": "Insekten Europas",
       "lat": "Insecta"
     }
-  },
-  "topConceptOf": {
-    "id": "https://example.org/insekten/"
   },
   "@context": {
     "@version": 1.1,

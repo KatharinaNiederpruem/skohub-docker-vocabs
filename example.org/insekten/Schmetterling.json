@@ -7,11 +7,27 @@
     "de": "Schmetterlinge",
     "lat": "Lepidoptera"
   },
+  "narrower": [
+    {
+      "id": "https://example.org/insekten/Schwalbenschwanz",
+      "prefLabel": {
+        "de": "Schwalbenschwanz",
+        "lat": "Papilinodae"
+      }
+    },
+    {
+      "id": "https://example.org/insekten/Weissling",
+      "prefLabel": {
+        "de": "Weisslinge",
+        "lat": "Pieridae"
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {
-      "en": "Insects",
-      "de": "Insekten",
+      "en": "Insects in Europe",
+      "de": "Insekten Europas",
       "lat": "Insecta"
     }
   },

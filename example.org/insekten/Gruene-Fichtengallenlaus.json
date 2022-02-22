@@ -7,16 +7,20 @@
     "de": "Grüne Fichtengallenlaus",
     "lat": "Adelges viridis"
   },
+  "broader": {
+    "id": "https://example.org/insekten/Blattlaeuse",
+    "prefLabel": {
+      "de": "Blattläuse",
+      "lat": "Aphidoidea"
+    }
+  },
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {
-      "en": "Insects",
-      "de": "Insekten",
+      "en": "Insects in Europe",
+      "de": "Insekten Europas",
       "lat": "Insecta"
     }
-  },
-  "topConceptOf": {
-    "id": "https://example.org/insekten/"
   },
   "@context": {
     "@version": 1.1,
