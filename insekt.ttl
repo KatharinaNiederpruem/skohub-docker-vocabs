@@ -68,14 +68,14 @@ insekt:Schnabelkerfe a skos:Concept ;
       skos:altLabel "Daktulosphaira vitifoliae"@de, "Viteus vitifolii"@de, "Daktulosphaira vitifoliae"@en ;
       skos:note "Amerikanischer Rebenschädling, der in Europa weit verbreitet ist."@de, "Grape phylloxera is an insect pest of commercial grapevines worldwide, originally native to eastern North America."@en ;
       skos:broader insekt:Blattlaeuse ;
-      skos:related insekt:Gruene-Fichtengallenlaus, insekt:Gleichfluegler, insekt:Schnabelkerfe ;
+      skos:related insekt:Gleichfluegler, insekt:Schnabelkerfe ;
       skos:inScheme insekt: .
 
       insekt:Gruene-Fichtengallenlaus a skos:Concept ;
        skos:prefLabel "Grüne Fichtengallenlaus"@de, "Green spruce aphid"@en ;
        skos:altLabel "Sacchiphantes viridis"@de, "Adelges viridis"@de, "Elatobium abietinum"@en ;
        skos:broader insekt:Blattlaeuse ;
-       skos:related insekt:Reblaus, insekt:Gleichfluegler, insekt:Schnabelkerfe ;
+       skos:related insekt:Gleichfluegler, insekt:Schnabelkerfe ;
        skos:note "Die grüne Fichtengallenlaus erzeugt zapfenartige Gallen an Fichtentrieben."@de, "Green spruce aphid (Elatobium abietinum) is an important defoliating pest of spruce trees (trees in the Picea genus), especially Sitka spruce (Picea sitchensis), which is widely grown in the UK for the softwood timber market."@en ;
        skos:inScheme insekt: .
 
@@ -106,12 +106,12 @@ insekt:Schmetterling a skos:Concept ;
       skos:altLabel "Pieris rapae"@de, "small white"@en, "cabbage white"@en, "cabbage butterfly"@en;
       skos:note "Die Art ist in Europa, Asien und Nordafrika heimisch."@de, "The species has a natural range across Europe, Asia, and North Africa."@en;
       skos:broader insekt:Weissling ;
-      skos:related insekt:Rapsweissling, insekt:Schmetterling ;
+      skos:related insekt:Schmetterling ;
       skos:inScheme insekt: .
 
     insekt:Rapsweissling a skos:Concept ;
       skos:prefLabel "Rapsweißling"@de, "Green-veined white"@en ;
       skos:altLabel "Pieris napi"@de, "Grünader-Weißling"@de, "Hecken-Weißling"@de, "Pieris napi"@en; 
       skos:broader insekt:Weissling ;
-      skos:related insekt:Kleiner-Kohlweissling, insekt:Schmetterling ;
+      skos:related insekt:Schmetterling ;
       skos:inScheme insekt: .
