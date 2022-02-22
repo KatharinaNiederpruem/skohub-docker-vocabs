@@ -5,27 +5,26 @@
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FBorstenschwaenze",
   "prefLabel": {
     "en": "Thysanura",
-    "de": "Borstenschwänze",
-    "lat": "Thysanura"
+    "de": "Borstenschwänze"
   },
   "altLabel": {
     "en": [
       "Apterygota"
     ],
     "de": [
-      "Zottenschwänze"
+      "Zottenschwänze",
+      "Thysanura"
     ]
   },
   "note": {
-    "en": "They are wingless and have bodies covered with fine scales",
+    "en": "Thysanura are wingless and have bodies covered with fine scales",
     "de": "Primitive, flügellose Art aus der Gruppe der Flügellosen ohne eigentliche Metamorphose."
   },
   "inScheme": {
     "id": "https://example.org/insekten/",
     "title": {
       "en": "Insects in Europe",
-      "de": "Insekten Europas",
-      "lat": "Insecta"
+      "de": "Insekten Europas"
     }
   },
   "topConceptOf": {

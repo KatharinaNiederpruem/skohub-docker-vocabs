@@ -38,8 +38,7 @@
     "id": "https://example.org/insekten/",
     "title": {
       "en": "Insects in Europe",
-      "de": "Insekten Europas",
-      "lat": "Insecta"
+      "de": "Insekten Europas"
     }
   },
   "@context": {

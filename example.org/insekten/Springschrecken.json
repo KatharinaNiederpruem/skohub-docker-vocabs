@@ -5,12 +5,14 @@
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Finsekten%2FSpringschrecken",
   "prefLabel": {
     "en": "Orthoptera",
-    "de": "Springschrecken",
-    "lat": "Saltatoria"
+    "de": "Springschrecken"
   },
   "altLabel": {
     "de": [
       "Heuschrecken"
+    ],
+    "lat": [
+      "Saltatoria"
     ]
   },
   "note": {
@@ -21,8 +23,7 @@
     "id": "https://example.org/insekten/",
     "title": {
       "en": "Insects in Europe",
-      "de": "Insekten Europas",
-      "lat": "Insecta"
+      "de": "Insekten Europas"
     }
   },
   "topConceptOf": {
